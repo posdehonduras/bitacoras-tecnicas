@@ -685,6 +685,7 @@ export default function UsuariosPage() {
               defaultValue={usuarioEditar ? usuarioEditar.comision || "" : ""}
               min={0}
               max={100}
+              step="any"
               required
               className="mt-1 w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#295d0c]"
             />
